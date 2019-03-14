@@ -1,0 +1,360 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+body {
+    font: 12px/18px "TrebuchetMS", Helvetica, Verdana, sans-serif;
+}
+
+body {
+    min-width: 200px;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+main {
+    margin: 0 auto;
+    padding: 1em;
+}
+
+h1 {
+    font-size: 2em;
+    padding: 0.5em 0;
+    font-weight: bold;
+    line-height: 1em;
+    text-align: center;
+    clear: both;
+
+}
+
+h2 {
+    font-size: 1.5em;
+    padding: 0.5em 0;
+    font-weight: bold;
+    line-height: 1.2em;
+
+
+
+}
+
+h3 {
+    font-style: italic;
+    font-size: 0.5em;
+    color: grey;
+}
+
+p {
+    font-size: 1em;
+    text-align: justify;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+    text-shadow: 0em 0em 1em white;
+}
+
+a:visited {
+    color: black;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+header {
+    height: auto;
+    background: #FFE680;
+    padding: 2em;
+}
+
+header img {
+    display: inline-block;
+    width: 85%;
+}
+
+
+.burger {
+    width: 20px;
+    height: 5px;
+    background-color: black;
+    margin: 3px 0 0;
+}
+
+#nav-icon {
+    display: inline-block;
+    float: right;
+}
+
+#nav-desktop {
+    display: none;
+}
+
+#nav-mobile {
+    text-align: center;
+    font-size: 1.2em;
+    border: 1px solid #CCC;
+}
+
+
+#nav-mobile li {
+    padding: 1.2em;
+    border-bottom: 3px solid #CCC;
+
+}
+
+#nav-mobile li a {
+    color: #000;
+    text-decoration: none;
+
+}
+
+#nav-mobile li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Main
+-----------------------------------------------------------------------------*/
+section {
+    padding: 2em 0;
+}
+
+section img {
+    width: 100%;
+
+
+}
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+footer {
+    height: auto;
+    background: darkgrey;
+}
+
+
+
+
+/* Skærme over 320px
+_________________________________________________________________*/
+
+@media only screen and (min-width: 320px) {
+    header {
+        background-color: seashell;
+    }
+
+    .burger {
+        width: 25px;
+        height: 5px;
+        background-color: black;
+        margin: 3px 0 0;
+    }
+
+    #nav-icon {
+        padding: 10px 0 0;
+    }
+
+    .ekstratext {
+        display: none;
+    }
+}
+
+
+
+
+/* Skærme over 480px
+_________________________________________________________________*/
+@media only screen and (min-width: 480px) {
+    header {
+        background-color: rosybrown;
+
+    }
+
+    header img {
+        max-width: 317px;
+        display: block;
+    }
+
+    #nav-icon {
+        display: none;
+    }
+
+    #nav-desktop {
+        display: block;
+        list-style-type: none;
+        float: right;
+        padding: 1.5em 0;
+
+
+    }
+
+    #nav-desktop li {
+        display: inline;
+        padding: 0.8em 1em;
+        background-color: seashell;
+        overflow: auto;
+
+    }
+
+    #nav-mobile {
+        display: none;
+    }
+
+    #vinter img {
+        max-width: 585px;
+        display: block;
+        margin: 0 auto;
+    }
+
+
+}
+
+
+
+
+/* Skærme mellem 480px pg 650px
+_________________________________________________________________*/
+@media only screen and (min-width: 480px) and (max-width: 650px) {
+
+    p,
+    h2 {
+        padding: 0 15%;
+    }
+
+    section img {
+        padding: 1em 0;
+
+    }
+
+
+}
+
+
+
+
+/* Skærme mellem 650px og 768px
+_________________________________________________________________*/
+@media only screen and (min-width: 650px) and (max-width: 768px) {
+    .imgtext {
+        width: 50%;
+        float: left;
+        margin-right: 1em;
+        overflow: auto;
+    }
+
+    h2 {
+        clear: both;
+        padding-top: 2em;
+        width: 50%;
+    }
+
+    .ekstratext {
+        display: inline;
+    }
+
+    .streg {
+        clear: both;
+        width: 100%;
+        height: 10px;
+        background-color: rosybrown;
+        margin: 1em 0 0;
+
+        border-top: 3px dotted black;
+    }
+}
+
+
+
+
+/* Skærme over 768px
+_________________________________________________________________*/
+@media only screen and (min-width: 768px) {
+    header {
+        background-color: lightgoldenrodyellow;
+    }
+
+    header img {
+        display: inline-block;
+    }
+
+    #nav-desktop li {
+        padding: 1em 1.5em;
+        background-color: #000;
+    }
+
+    #nav-desktop li a {
+        color: lightgoldenrodyellow;
+    }
+
+    body {
+        padding: 0 10%
+    }
+
+    h2 {
+        letter-spacing: 0.1em;
+        text-align: center;
+    }
+
+    #wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    section {
+        width: 45%;
+        margin: 0 2.5%;
+    }
+
+
+}
+
+
+
+
+
+/* Skærme over 1024px
+_________________________________________________________________*/
+@media only screen and (min-width: 1024px) {
+    header {
+        background-color: #d1d2a5;
+    }
+
+    #nav-desktop li {
+        padding: 1em 2em;
+    }
+
+    #nav-desktop li a {
+        color: #d1d2a5;
+    }
+
+    body {
+        padding: 0 5%
+    }
+
+    section {
+        width: 30%;
+        margin: 0;
+
+    }
+
+
+}
