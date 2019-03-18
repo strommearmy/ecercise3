@@ -1,0 +1,306 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary,
+h2 {
+    display: block;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "helvitica", sans-serif;
+    background-color: snow;
+}
+
+.wrapper {
+    background-color: aliceblue
+}
+
+h1 {
+    font-size: 1.2em;
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    padding: 0 2%;
+}
+
+h2 {
+    font-size: 1.1em;
+    margin-bottom: 1em;
+    margin-top: 1.4em;
+    border-bottom: 2px solid #ccc;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.imagetext {
+    font-size: 0.8em;
+    font-style: oblique;
+}
+
+header, main, footer {
+    padding: 1%;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+header {
+    background: #FFE680;
+}
+
+#logo {
+    width: 120px;
+}
+
+.burger {
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    margin: 5px 0;
+}
+
+
+
+#navigation-icon {
+    display: inline-block;
+    float: right;
+    padding-right: 2%;
+}
+
+#navigation-desktop {
+    display: none;
+}
+
+#navigation-mobile {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#navigation-mobile li {
+    padding: 0.8em;
+    border-bottom: 1px solid #ccc;
+}
+
+#navigation-mobile li a {
+    color: #000;
+    text-decoration: none;
+}
+
+#navigation-mobile li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+img {
+    width: 100%;
+}
+
+.imagetext {
+    display: none;
+}
+
+.h2andtext {
+    padding: 2%;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+footer {
+    margin: auto 0;
+    height: 3em;
+    background: #FFE680;
+    position: relative;
+}
+
+#footerlist {
+    display: block;
+    text-align: center;
+    padding-top: 1em;
+}
+
+#footerlist li {
+    display: inline;
+    margin: 0.4em;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+@media only screen and (min-width:480px) {
+
+    .burger {
+        width: 40px;
+        height: 6px;
+    }
+
+    #logo {
+        width: 180px;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+        border-bottom: 2px solid #ccc;
+    }
+
+    .imagetext {
+        display: block;
+    }
+
+    #footerlist li {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:769px) {
+
+    #navigation-icon {
+        display: none;
+    }
+
+    #navigation-desktop {
+        display: block;
+        text-align: right;
+        float: right;
+        padding-top: 0.5em;
+    }
+
+    #navigation-desktop li {
+        display: inline;
+        margin: 0.3em;
+    }
+
+    #navigation-desktop li a {
+        color: #000;
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    #navigation-desktop li a:hover {
+        text-decoration: underline;
+    }
+
+    #navigation-mobile {
+        display: none;
+    }
+
+    .imgandtext {
+        width: 45%;
+        float: left;
+        margin-bottom: 4%;
+        margin-left: 2%;
+    }
+
+    .h2andtext {
+        width: 45%;
+        float: left;
+        margin-left: 1em;
+        margin-bottom: 4%;
+    }
+
+    #to {
+        clear: both;
+    }
+
+    #tre {
+        clear: both;
+    }
+
+    #fire {
+        clear: both;
+    }
+
+    footer {
+        clear: both;
+    }
+
+    h2 {
+        font-size: 1.1em;
+        margin-bottom: 1em;
+        margin-top: 0em;
+    }
+
+    #footerlist li {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+
+    header {
+        min-height: 5.5em;
+    }
+
+    #logo {
+        width: 200px;
+        margin-top: 23px;
+    }
+
+    #navigation-desktop {
+        padding-top: 1.6em;
+    }
+
+    #navigation-desktop li a {
+        font-size: 30px;
+    }
+
+    footer {
+        min-height: 5.5em;
+    }
+
+    .imgandtext {
+        width: auto;
+        margin-bottom: 4%;
+    }
+
+    .h2andtext {
+        width: auto;
+        background-color: aliceblue
+    }
+
+    #flexcontainer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #et {
+        width: 48%;
+        margin-right: 3%;
+    }
+
+    #to {
+        width: 48%;
+    }
+
+    #tre {
+        width: 48%;
+        margin-right: 3%;
+    }
+
+    #fire {
+        width: 48%;
+    }
+
+    #footerlist {
+        padding-top: 2.2em;
+    }
+
+}
