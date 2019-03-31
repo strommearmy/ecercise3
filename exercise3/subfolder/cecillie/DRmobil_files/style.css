@@ -1,0 +1,249 @@
+#logo {
+    width: 100%;
+    background-color: gray;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+nav {
+    text-align: center;
+    background-color: gray;
+    font-family: sans-serif;
+
+
+
+}
+
+
+header {
+    background-color: gray;
+}
+
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+
+
+}
+
+nav > ul > li {
+    display: inline-block;
+    padding-left: 2%;
+    padding-right: 2%;
+
+
+
+}
+
+nav > ul {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+#skole {
+
+    max-width: 100%;
+    align-items: center;
+    display: block;
+    margin: auto;
+}
+
+#bil {
+    max-width: 100%;
+    display: block;
+    align-items: center;
+    margin: auto;
+}
+
+#mand {
+    max-width: 100%;
+    display: block;
+    align-items: center;
+    margin: auto;
+}
+
+
+h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 155%;
+    margin: 4%;
+    text-align: left;
+
+
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+
+#flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: none;
+    justify-content: center;
+    text-align: justify;
+    letter-spacing: normal;
+
+
+}
+
+#flexcontainer > article {
+    width: 90%;
+    margin: 2%;
+    text-align: center;
+    font-size: 0.7em;
+    font-family: sans-serif;
+    border: 4em;
+    white-space: pre-line;
+
+}
+
+
+
+#designskole
+{
+ width: 90%;
+    margin: 2%;
+    text-align: center;
+    font-size: 0.7em;
+    font-family: sans-serif;
+    border: 4em;
+    white-space: pre-line;   
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    font-family: sans-serif;
+    width: 100%;
+
+}
+
+footer > ul > li {
+    font-size: 50%;
+    margin-left: 6%;
+    padding-top: 1em;
+
+
+}
+
+
+
+@media only screen and (min-width: 320px) {
+
+    h1 {
+        font-size: 2em;
+    }
+
+}
+
+@media only screen and (min-width: 480px) {
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    footer > ul > li {
+        font-size: 0.7em;
+    }
+
+    #flexcontainer > article {
+        font-size: 0.9em;
+    }
+
+    nav > ul > li > a {
+
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    #logo {
+        width: 15%;
+        display: inline;
+        vertical-align: middle;
+
+    }
+
+    header {
+        display: inline-block;
+    }
+
+    nav {
+        display: inline-block;
+        width: 75%;
+        vertical-align: middle;
+
+
+    }
+
+    nav > ul > li > a {
+
+        font-size: 1em;
+    }
+
+    #flexcontainer > article {
+        font-size: 1em;
+    }
+    
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    footer > ul > li {
+        font-size: 0.9em;
+    }
+
+    footer {
+        padding-bottom: 2%
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    #flexcontainer > article {
+        width: 46%;
+        margin: 2% 1% 2% 1%;
+        text-align: left;
+        display: inline-grid;
+
+    }
+    
+    #flexcontainer > article {
+        font-size: 1em;
+    }
+    
+    #designskole{
+        font-size: 1em;
+        text-align: left;
+        
+    }
+    
+    nav{
+        font-size: 1em;
+    }
+    h1{
+        text-align: center;
+    }
+        }
+    
