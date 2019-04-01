@@ -1,0 +1,35 @@
+/* header */
+
+nav {
+            background-color: whitesmoke;
+            text-align: right;
+        }
+
+        nav li {
+            display: inline;
+            padding-right: 14px;
+        }
+
+        nav ul {
+            padding: 10px;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;}
+            
+        
+              nav a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+    
+
+/* main */
+
+body {background-color: lightsteelblue;}
+
+h1 {text-align: center;}
+h2 {text-align: center}
+h6 {border-bottom-style: groove}
+
